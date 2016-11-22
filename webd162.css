@@ -1,0 +1,41 @@
+/* 
+Assignment: Week 12
+Author: Garnet Clarke
+Date: 11/08/2016
+Filename: webd162.css
+Description: Stylesheet for Week 9 Assignment 
+*/
+body {font-family:'Noto Sans', sans-serif; padding:0.25em .5em; margin-top:-.5em;}
+
+#wrapper {width: 100%; max-width: 1024px;} 
+
+h1 {color:red; font-family: cursive;}
+
+#about-page * li.about-link, #proposal-page * li.proposal-link {background-color: yellow;}
+
+nav ul li {font-size: small; font-family: sans-serif; display: inline; list-style-type: none; padding-right: 20px; font-variant:small-caps;}
+
+nav ul link a:hover {font-weight:bold;}
+
+nav ul li a:link {text-decoration: none;}
+
+.leftcol {width:75%; float: left;}
+
+article ol li {list-style-type: upper-alpha;}
+
+article ol li:nth-child(odd):first-line {letter-spacing: .125em; color:#6C06E0; padding: .5em .25em; margin-left: -.25em;}
+
+aside {font-family: 'Crete Round', serif; 
+    font-style:italic;
+    background-color:rgb(192,86,219); 
+    background-color:rgba(192,86,219,0.5); 
+    padding: 1em;
+    width: 20%;
+    float: right;
+    border-radius: 1em;}
+
+aside h2 {font-family: 'Raleway', sans-serif;}
+
+footer {border-top: 1px solid red; font-size: small; font-family: monospace;}
+
+.clearfloat {clear: both;}
